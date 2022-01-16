@@ -1,0 +1,308 @@
+@media (max-width: 1200px)
+    .menu
+        &_item
+            padding-right: 20px
+        &_link
+            font-size: 13px
+    .promo
+        &_header
+            font-size: 50px
+    .reasons
+        &_block
+            align-items: flex-start
+        &_descr
+            width: 300px
+        
+
+@media (max-width: 991px)
+    .menu
+        &_item
+            padding-right: 8px
+        &_link
+            font-size: 11px
+    .subheader
+        &_logo
+            img
+                width: 100%
+        &_official
+            font-size: 11px
+        &_number
+            font-size: 18px
+        &_btn
+            margin-top: 21px
+            height: 40px
+            width: 100%
+    .promo
+        &_header
+            font-size: 40px
+        &_subheader
+            font-size: 30px
+    .reasons
+        &_block
+            flex-direction: column
+            align-items: center
+        &_round
+            margin-right: 0
+        &_descr
+            width: 300px
+            margin-top: 20px
+    .mobile
+        overflow-x: hidden
+        &_item
+            width: 240px
+            height: 250px
+            &_subtitle
+                font-size: 17px
+    footer
+        .icon
+            display: flex
+            justify-content: center
+            margin-top: 10px
+            padding-left: 0
+            margin-top: 10px
+        .store
+            display: flex
+            justify-content: center
+            padding-right: 0
+            margin-top: 10px
+@media (max-width: 767px)
+    nav
+        width: 100%
+        .menu
+            position: fixed
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            flex-wrap: wrap
+            top: 0
+            left: -100%
+            width: 100%
+            height: 100vh
+            padding: 20px 15px
+            background-color: rgba(0, 0, 0, .8)
+            transition: 0.6s all
+            &_active
+                left: 0
+            &_item
+                padding-right: 0
+                border: none
+                margin: 10px 0
+            &_link
+                font-size: 20px
+        .hamburger
+            display: block
+            position: absolute
+            right: 30px
+            top: 25px
+            transform: translateY(-50%)
+            width: 26px
+            height: 12px
+            span
+                display: block
+                height: 2px
+                width: 100%
+                background-color: #fff
+                margin-bottom: 2px
+                transition: 0.5s all
+            &_active
+                span
+                    margin-bottom: -2px 
+                    &:nth-child(1)
+                        transform: translateY(3px) rotate(-45deg)
+                    &:nth-child(2)
+                        display: none
+                    &:nth-child(3)
+                      transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        &_number
+            display: block
+            margin-top: 15px
+            color: #ffffff
+            flont-size: 16px
+            font-weight: 400
+            text-transform: uppercase
+            text-align: center
+        &_btn
+            cursor: none
+            display: block
+            weight: 200px
+            height: 40px
+            margin: 0 auto
+            margin-top: 10px
+            border-radius: 8px
+            &:hover
+                background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+    .reasons
+        &_subtitle
+            text-align: center
+        .things_text_main
+            font-size: 27px
+    .promo
+        &_btn
+            cursor: none
+            &:hover
+                background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+        &_header
+            font-size: 40px
+            line-height: 45px
+    .mobile
+        overflow-x: hidden
+        .things_text_main
+            font-size: 30px
+    .car_section
+        overflow-x: hidden
+        min-height: 810px
+        .things_advantage
+            margin-top: -511px
+        .car_dark_background
+            height: 550px
+        .car
+            margin-top: 25px
+            width: 78%
+        .car_text
+            margin-top: 115px
+@media (max-width: 575px)
+    nav
+        height: 30px
+        .menu
+            width: 100%
+            text-align: center
+            display: flex
+            justify-content: column
+            flex-wrap: wrap      
+            &_link
+                padding: 20px 30px 20px 30px
+                font-size: 13px
+        .menu_active
+            width: 100%
+        .hamburger
+            right: 15px
+            top: 16px
+            width: 20px
+    header
+        height: 30px
+    .subheader
+        height: 60px
+        top: -22px
+        &_official
+            display: none
+        &_logo
+            margin-top: 16px
+        &_number
+            font-size: 12px
+            margin-top: 8px
+            font-weight: 400
+            text-transform: uppercase
+        &_btn
+            margin-top: 6px
+            height: 22px
+            width: 110px
+            font-size: 10px
+    .promo
+        min-height: 400px
+        padding: 93px 0 35px 0
+        &_descr
+            display: none
+        &_header
+            font-size: 30px
+            padding: 0 24px
+            line-height: 35px
+        &_subheader
+            font-size: 20px
+            margin-top: 33px
+            padding: 0 10px
+            line-height: 30px
+        &_btn
+            width: 210px
+            height: 50px
+            margin-top: 72px
+    .mobile
+        overflow-x: hidden
+        .row
+            margin-top: 0
+        .things_advantage
+            padding-top: 8px
+            margin-top: 0
+        .things_text_main
+            font-size: 21px
+            margin-top: 35px
+        .subtitle
+            margin-top: 17px
+        &_item
+            margin-top: 15px
+    .reasons
+        padding: 22px 0 36px 0
+        &_block
+            margin-top: 26px
+        &_round
+            width: 100px
+            height: 100px
+        &_subtitle
+            font-size: 16px
+            text-align: center
+        &_descr
+            width: 100%
+            margin-top: 27px
+    .things_advantage
+        font-size: 11px
+        width: 110px
+        margin-top: 15px
+        line-height: 16px
+    .car_section
+        margin: 0 auto
+        width: 92%
+        overflow-x: visible
+        background: none
+        min-height: 0
+        .things_advantage
+            margin-top: -360px
+        .car_dark_background
+            height: 384px
+        .car_text
+            margin-top: 10px
+            font-weight: 300
+            text-align: center
+            color: #FFFFFF
+    .require
+        .things_advantage
+            margin-top: 70px
+        .things_text_main
+            font-size: 24px
+    .world
+        .things_text_main
+            font-size: 27px
+        .subtitle
+            margin-top: 10px
+    .xs-better
+        display: none
+    footer
+        .line
+            margin-top: 9px
+            width: 290px
+            height: 5px
+        .link_basement_main
+            .link_basement
+                margin-top: 30px
+                padding-right: 13px
+            .link_white_basement
+                &:first-child
+                    margin-left: 12px
+        .store
+            margin-bottom: 20px
+            margin-top: 20px
+        .icon
+            margin-top: 20px
+		
+    
+
+            
+        
+    
+
+        
+
+
